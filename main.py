@@ -8,7 +8,7 @@ def get_unique_colors(image_path)->list[int]:
     # Convert the image to RGB mode
     img = img.convert('RGB')
 
-    # downscale colors to 16
+    # downscale to 64 colors
     img = img.quantize(colors=64)
 
     signed_palette = []
