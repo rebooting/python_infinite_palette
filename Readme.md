@@ -1,5 +1,17 @@
+
+
 Extract colors from an image and export it as an infinite painter(Android) palette file (quantized to 64 colors)
 
+pre-requisites:
+
+- python3
+- pip3
+- virtualenv
+
+
+setup:
+
+```pip3 install -r requirements.txt```
 
 usage:
 
